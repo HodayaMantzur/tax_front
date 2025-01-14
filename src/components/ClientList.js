@@ -112,7 +112,7 @@ const ClientList = () => {
 
   const selectClient = (client) => {
     localStorage.setItem("selected_client", JSON.stringify(client))
-    window.location.href = "/create-invoice"
+    navigate("/create-invoice")
   }
 
   if (loading) {
