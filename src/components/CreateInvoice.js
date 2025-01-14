@@ -71,7 +71,7 @@ const CreateInvoice = () => {
     }
 
     axios
-      .post("https://tax-backend.onrender.com/api/transactions/invoices/create/", data, {
+      .post("http://127.0.0.1:8000/api/transactions/invoices/create/", data, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
