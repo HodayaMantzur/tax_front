@@ -1,0 +1,21 @@
+@media print {
+    #invoice-print-section {
+      margin: 0 auto;
+      width: 80%;
+      font-family: Arial, sans-serif;
+      color: #000;
+      border: 1px solid #ddd;
+      padding: 20px;
+      background-color: #fff;
+    }
+  
+    body {
+      background-color: white;
+      -webkit-print-color-adjust: exact; /* הדפסת צבעים */
+    }
+  
+    .btn {
+      display: none; /* הסתרת כפתורים כמו "הדפס חשבונית" */
+    }
+  }
+  
